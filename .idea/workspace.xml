@@ -4,29 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a3c9ba7-f6e8-43d4-af60-a310d2b80be7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023_02_09_12_02_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023_02_09_12_02__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_basics/Challenge_Python_basics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_basics/Conversions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_basics/MathOperators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_basics/Variables.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Strings/ConvertingTypes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Strings/String_Slicing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Strings/Strings_exercise1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Conversions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MathOperators.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_basics" beforeDir="false" afterPath="$PROJECT_DIR$/Python_basics" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_basics/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Python_basics/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_basics/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_basics/.idea/Python_Basics.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_basics/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_basics/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_basics/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Variables" beforeDir="false" />
-    </list>
+    <list default="true" id="3a3c9ba7-f6e8-43d4-af60-a310d2b80be7" name="Changes" comment="Python Project" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -119,6 +97,18 @@
       <option name="presentableId" value="Default" />
       <updated>1675929796934</updated>
     </task>
+    <task id="LOCAL-00001" summary="Python Project">
+      <created>1675949581880</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675949581880</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Python Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Python Project" />
   </component>
 </project>
