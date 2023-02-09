@@ -1,8 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3a3c9ba7-f6e8-43d4-af60-a310d2b80be7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023_02_09_12_02_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023_02_09_12_02__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_basics/Challenge_Python_basics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_basics/Conversions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_basics/MathOperators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_basics/Variables.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Strings/ConvertingTypes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Strings/String_Slicing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Strings/Strings_exercise1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Conversions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MathOperators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_basics" beforeDir="false" afterPath="$PROJECT_DIR$/Python_basics" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_basics/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Python_basics/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_basics/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_basics/.idea/Python_Basics.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_basics/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_basics/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_basics/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Variables" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +57,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.Strings_exercise1">
     <configuration name="Conversions" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Python_Bootcamp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -56,6 +79,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Strings_exercise1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_Bootcamp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Strings" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Strings/Strings_exercise1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Conversions" />
+      <item itemvalue="Python.Strings_exercise1" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Strings_exercise1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

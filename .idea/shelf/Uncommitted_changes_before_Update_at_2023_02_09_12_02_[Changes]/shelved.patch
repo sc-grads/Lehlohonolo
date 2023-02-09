@@ -1,0 +1,170 @@
+Index: Conversions.py
+===================================================================
+diff --git a/Conversions.py b/Conversions.py
+deleted file mode 100644
+--- a/Conversions.py	(revision f3b4b673ca736f115c014e0efe24238b381a4537)
++++ /dev/null	(revision f3b4b673ca736f115c014e0efe24238b381a4537)
+@@ -1,22 +0,0 @@
+-# distance from LA to NYC in miles
+-distance_miles = 2806
+-
+-# distance in Km
+-distance_km = distance_miles * 1.609
+-
+-# temperature in degrees Celsius
+-temperature_c = 25
+-
+-# the temperature T in degrees Fahrenheit (°F) is equal to the temperature T in degrees Celsius (°C) times 9/5 plus 32
+-# temperature in degrees Fahrenheit
+-temperature_f = 25 * 9 / 5 + 32
+-
+-# size in inches
+-inch = 17
+-
+-# 1 inch is equal to 2.54 centimeters
+-# size in cm
+-cm = inch * 2.54
+-
+-## 1 Year has 365 days, 1 day has 24h, 1h has 3600 sec
+-year_in_seconds = 365 * 24 * 3600
+\ No newline at end of file
+Index: MathOperators.py
+===================================================================
+diff --git a/MathOperators.py b/MathOperators.py
+deleted file mode 100644
+--- a/MathOperators.py	(revision f3b4b673ca736f115c014e0efe24238b381a4537)
++++ /dev/null	(revision f3b4b673ca736f115c014e0efe24238b381a4537)
+@@ -1,18 +0,0 @@
+-a = 9
+-b = 2
+-
+-# YOUR CODE STARTS HERE:
+-
+-# c equals a divided by b
+-c = a / b
+-
+-# d equals a raised to the power of b
+-d = a ** b
+-
+-# e equals the remainder of a divided by b
+-e = a % b
+-
+-# f equals a multiplied by b
+-f = a * b
+-
+-print("This are basic operators")
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"3a3c9ba7-f6e8-43d4-af60-a310d2b80be7\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/vcs.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/vcs.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2LUdrsC3ceiOq2xUZhdstonKE9x\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"Conversions\" type=\"PythonConfigurationType\" factoryName=\"Python\" nameIsGenerated=\"true\">\r\n      <module name=\"Python_Bootcamp\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"C:\\Users\\Lehlohonolo Tladi\\PycharmProjects\\pythonProject\\venv\\Scripts\\python.exe\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/Conversions.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"3a3c9ba7-f6e8-43d4-af60-a310d2b80be7\" name=\"Changes\" comment=\"\" />\r\n      <created>1675929796934</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1675929796934</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision f3b4b673ca736f115c014e0efe24238b381a4537)
++++ b/.idea/workspace.xml	(date 1675935965042)
+@@ -1,8 +1,25 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="AutoImportSettings">
++    <option name="autoReloadType" value="SELECTIVE" />
++  </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="3a3c9ba7-f6e8-43d4-af60-a310d2b80be7" name="Changes" comment="">
+-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
++    <list default="true" id="3a3c9ba7-f6e8-43d4-af60-a310d2b80be7" name="Changes" comment="Python Project">
++      <change afterPath="$PROJECT_DIR$/Python_basics/Challenge_Python_basics.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Python_basics/Conversions.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Python_basics/MathOperators.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Python_basics/Variables.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Conversions.py" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/MathOperators.py" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Python_basics" beforeDir="false" afterPath="$PROJECT_DIR$/Python_basics" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Python_basics/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Python_basics/.gitignore" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Python_basics/.idea/.name" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Python_basics/.idea/Python_Basics.iml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Python_basics/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Python_basics/.idea/modules.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Python_basics/.idea/vcs.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Variables" beforeDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -17,7 +34,7 @@
+     </option>
+   </component>
+   <component name="Git.Settings">
+-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Python_basics" />
+   </component>
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
+@@ -28,28 +45,31 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+-  }
+-}</component>
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "last_opened_file_path": "C:/Users/Lehlohonolo Tladi/PycharmProjects/Python_Bootcamp"
++  }
++}]]></component>
++  <component name="RecentsManager">
++    <key name="MoveFile.RECENT_KEYS">
++      <recent name="C:\Users\Lehlohonolo Tladi\PycharmProjects\Python_Bootcamp\Python_basics" />
++    </key>
++  </component>
+   <component name="RunManager">
+-    <configuration name="Conversions" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
++    <configuration name="Conversions" type="PythonConfigurationType" factoryName="Python" singleton="false" nameIsGenerated="true">
+       <module name="Python_Bootcamp" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+-      <envs>
+-        <env name="PYTHONUNBUFFERED" value="1" />
+-      </envs>
+-      <option name="SDK_HOME" value="C:\Users\Lehlohonolo Tladi\PycharmProjects\pythonProject\venv\Scripts\python.exe" />
++      <option name="SDK_HOME" value="" />
+       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+-      <option name="IS_MODULE_SDK" value="false" />
++      <option name="IS_MODULE_SDK" value="true" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Conversions.py" />
++      <option name="SCRIPT_NAME" value="C:\Users\Lehlohonolo Tladi\PycharmProjects\Python_Bootcamp\Python_basics\Conversions.py" />
+       <option name="PARAMETERS" value="" />
+-      <option name="SHOW_COMMAND_LINE" value="false" />
++      <option name="SHOW_COMMAND_LINE" value="true" />
+       <option name="EMULATE_TERMINAL" value="false" />
+       <option name="MODULE_MODE" value="false" />
+       <option name="REDIRECT_INPUT" value="false" />
+@@ -66,6 +86,19 @@
+       <option name="presentableId" value="Default" />
+       <updated>1675929796934</updated>
+     </task>
++    <task id="LOCAL-00001" summary="Python Project">
++      <created>1675930798045</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1675930798045</updated>
++    </task>
++    <option name="localTasksCounter" value="2" />
+     <servers />
+   </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="New python project" />
++    <MESSAGE value="Python Project" />
++    <option name="LAST_COMMIT_MESSAGE" value="Python Project" />
++  </component>
+ </project>
+\ No newline at end of file
