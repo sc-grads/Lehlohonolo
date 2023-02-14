@@ -4,7 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a3c9ba7-f6e8-43d4-af60-a310d2b80be7" name="Changes" comment="Python Project" />
+    <list default="true" id="3a3c9ba7-f6e8-43d4-af60-a310d2b80be7" name="Changes" comment="here we work with strings">
+      <change afterPath="$PROJECT_DIR$/.idea/Functions/Doc_Strings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Functions/GetVatExercise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dictionaries/CodingExercise113Dictionaries.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dictionaries/ManipulatingDictionaries.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program_Flow_Control/CodeingExerciseProgramFlowControl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program_Flow_Control/Flow Control and Loops Cheat Sheet.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program_Flow_Control/IfStatements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program_Flow_Control/Python+-+05+-+Program+Flow.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program_Flow_Control/WalrusOperator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program_Flow_Control/WhileLoopsExercises.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonLoops/For_Else_Break.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonLoops/Ranges.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets_and_FrozenSets/FrozenSets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets_and_FrozenSets/Set2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets_and_FrozenSets/SetsExercise1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Strings/FormatingStrings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Strings/StringMethods.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Strings/Strings Cheat Sheet.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Python_Bootcamp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_Bootcamp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_basics/Challenge_Python_basics.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_basics/Challenge_Python_basics.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +42,14 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$/Python_basics" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -32,10 +63,39 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.Strings_exercise1">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lehlohonolo Tladi\PycharmProjects\Python_Bootcamp\Lists" />
+      <recent name="C:\Users\Lehlohonolo Tladi\PycharmProjects\Python_Bootcamp\Program_Flow_Control" />
+      <recent name="C:\Users\Lehlohonolo Tladi\PycharmProjects\Python_Bootcamp\Strings" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.GetVatExercise">
+    <configuration name="CodingExercise113Dictionaries" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_Bootcamp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dictionaries" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dictionaries/CodingExercise113Dictionaries.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Conversions" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Python_Bootcamp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -57,7 +117,91 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Strings_exercise1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Doc_Strings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_Bootcamp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.idea/Functions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/Functions/Doc_Strings.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="FrozenSets" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_Bootcamp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sets_and_FrozenSets" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sets_and_FrozenSets/FrozenSets.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="GetVatExercise" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_Bootcamp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.idea/Functions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/Functions/GetVatExercise.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ManipulatingDictionaries" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_Bootcamp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dictionaries" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dictionaries/ManipulatingDictionaries.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Strings_exercise1" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Python_Bootcamp" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -81,10 +225,19 @@
     <list>
       <item itemvalue="Python.Conversions" />
       <item itemvalue="Python.Strings_exercise1" />
+      <item itemvalue="Python.CodingExercise113Dictionaries" />
+      <item itemvalue="Python.Doc_Strings" />
+      <item itemvalue="Python.GetVatExercise" />
+      <item itemvalue="Python.ManipulatingDictionaries" />
+      <item itemvalue="Python.FrozenSets" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Strings_exercise1" />
+        <item itemvalue="Python.GetVatExercise" />
+        <item itemvalue="Python.Doc_Strings" />
+        <item itemvalue="Python.CodingExercise113Dictionaries" />
+        <item itemvalue="Python.ManipulatingDictionaries" />
+        <item itemvalue="Python.FrozenSets" />
       </list>
     </recent_temporary>
   </component>
@@ -104,11 +257,53 @@
       <option name="project" value="LOCAL" />
       <updated>1675949581880</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Python Project">
+      <created>1675950017712</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675950017712</updated>
+    </task>
+    <task id="LOCAL-00003" summary="here we work with tuples">
+      <created>1676356836648</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676356836648</updated>
+    </task>
+    <task id="LOCAL-00004" summary="here we work with dictionaries">
+      <created>1676357244679</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676357244679</updated>
+    </task>
+    <task id="LOCAL-00005" summary="here we work with Lists">
+      <created>1676374615979</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676374615979</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Python Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Python Project" />
+    <MESSAGE value="here we work with tuples" />
+    <MESSAGE value="here we work with dictionaries" />
+    <MESSAGE value="here we work with Lists" />
+    <option name="LAST_COMMIT_MESSAGE" value="here we work with Lists" />
   </component>
 </project>
