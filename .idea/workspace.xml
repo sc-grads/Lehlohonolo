@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a3c9ba7-f6e8-43d4-af60-a310d2b80be7" name="Changes" comment="few changes">
-      <change beforePath="$PROJECT_DIR$/.idea/Functions/Doc_Strings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functions/Doc_Strings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Functions/GetVatExercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functions/GetVatExercise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_basics" beforeDir="false" afterPath="$PROJECT_DIR$/Python_basics" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,16 +37,6 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
-  },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory",
-      "repository"
     ]
   }
 }]]></component>
