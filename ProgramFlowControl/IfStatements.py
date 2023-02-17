@@ -18,7 +18,6 @@ print('We are using Python')
 # print('He is 20 years old')
 # else:
 #  print('He is not 20 years old')
-# Please investigate this code
 a = -1
 if a:
     print('message 1')
