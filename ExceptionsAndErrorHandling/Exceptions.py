@@ -1,6 +1,5 @@
 a = 2
 b = 10
-
 try:
     c = a / b
 except Exception as e:
