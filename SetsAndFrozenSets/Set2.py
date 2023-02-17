@@ -12,6 +12,5 @@ set4 = set1.intersection(set2)
 # difference() or - returns the set of elements that  exist only in set1, but not in set2.
 # set5 = set1 - set2
 set5 = set1.difference(set2)
-
 # Removing 'c' from set1
 set1.discard('c')
