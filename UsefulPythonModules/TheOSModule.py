@@ -14,14 +14,14 @@ os.__file__  # => '/usr/lib/python3.7/os.py'
 cwd = os.getcwd()  # => returns the current working directory
 print(cwd)
 
-# changes the current working directory, OS specific
+
 os.chdir('/home/user1/python')  # Linux specific
 os.chdir('C:\\Users')  # Windows specific
 
 os.path.isfile('/etc/passwd')  # returns True if argument is a file
 os.path.isdir('/tmp')  # returns True if argument is a directory
 
-# Splits the extension from a pathname, returns a tuple
+
 name, extention = os.path.splitext('/var/log/kern.log')  # name is 'kern', extention is '.log'
 
 # Listing a directory

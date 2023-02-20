@@ -35,4 +35,4 @@ with smtplib.SMTP(host='smtp.gmail.com', port=587) as smtp:
 
     smtp.login('masterpythonprogramming@gmail.com', 'GdSRJMsAS7')
     smtp.send_message(email)
-    print('The mail was sent!')
+
