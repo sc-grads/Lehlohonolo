@@ -32,7 +32,7 @@ print(s)
 s = sum_of_powers(1000000, 5)
 print(s)
 
-## EXPECTED OUTPUT:
+# EXPECTED OUTPUT:
 
 # sum_of_powers execution time:0.33020472526550293
 # 333332833333500000

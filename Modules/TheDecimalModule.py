@@ -17,7 +17,6 @@ x = Decimal(5)
 y = Decimal('5')
 print(x == y)  # => True
 
-
 x = Decimal(0.3)  # WRONG!
 y = Decimal('0.3')  # CORRECT!
 z = Decimal('0.9')

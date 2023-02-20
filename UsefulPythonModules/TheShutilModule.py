@@ -1,13 +1,9 @@
 ##############################
-## The OS module
-##############################
 
-## Importing the module
 import os
 
 # IMPORTANT!
 # You should always use a valid path according to your operating system
-
 
 # Returns the file that defines the module
 os.__file__  # => '/usr/lib/python3.7/os.py'

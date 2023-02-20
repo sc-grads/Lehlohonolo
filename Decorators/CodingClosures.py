@@ -1,11 +1,9 @@
 #################################
-## Inner Functions and Closures
+# Inner Functions and Closures
 #################################
 
 # A function defined inside another function is called  nested or inner function.
 # Inner functions can access variables of the enclosing scope and become closures.
-
-
 # defining an outer function
 def outer():
     msg = 'Python'
@@ -21,7 +19,6 @@ def outer():
         return x
 
     return inner
-
 
 func1 = outer()
 print(type(func1))  # => <class 'function'>

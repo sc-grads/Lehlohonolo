@@ -8,7 +8,6 @@ def sum(number, fn):
 def square(x):
     return x ** 2
 
-
 result = sum(3, square)
 print(result)
 
@@ -16,7 +15,6 @@ import math
 
 result = sum(10, math.sqrt())
 print(result)
-
 
 # function that returns a function
 def compute(msg):

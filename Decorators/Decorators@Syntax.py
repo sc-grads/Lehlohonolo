@@ -1,11 +1,12 @@
 #################################
-## Decorators - The @ Syntax
+# Decorators - The @ Syntax
 #################################
 
 user = {'level': 'admin', 'username': 'root', 'id': 0}
 
+
 # defining a decorator
-def only_admin(func): # decorators wrap a function, modifying its behavior.
+def only_admin(func):  # decorators wrap a function, modifying its behavior.
     def wrapper_only_admin(*args, **kwargs):
         if user['level'] == 'admin':
             return func(*args, *kwargs)
@@ -15,7 +16,7 @@ def only_admin(func): # decorators wrap a function, modifying its behavior.
     return wrapper_only_admin
 
 
-@only_admin   # @ or pie syntax
+@only_admin  # @ or pie syntax
 def remove_file(f):
     """
     It removes a file.
@@ -26,7 +27,6 @@ def remove_file(f):
         print(f'{f} removed!')
     else:
         print('Argument is not file!')
-
 
 
 try:
@@ -40,4 +40,3 @@ except PermissionError as e:
 #     remove_file('a.txt')
 # except PermissionError as e:
 #     print(e)
-

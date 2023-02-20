@@ -17,7 +17,6 @@ print(output)   # printing the output of ipconfig command
 # It's not recommended to execute commands using os.system()
 # os.system('whatever command')
 
-
 # Running system commands using subprocess module
 import subprocess
 
