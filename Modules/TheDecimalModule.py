@@ -12,14 +12,12 @@ a = 0.3
 print(format(a, '.25f'))  # => 0.2999999999999999888977698
 print(a * 3 == 0.9)  # => False
 
-## Creating a integer using the Decimal class
-## The argument is an integer or a string
+
 x = Decimal(5)
 y = Decimal('5')
 print(x == y)  # => True
 
-## Creating a float using the Decimal class
-## The argument should be the float as a string
+
 x = Decimal(0.3)  # WRONG!
 y = Decimal('0.3')  # CORRECT!
 z = Decimal('0.9')
@@ -47,4 +45,4 @@ print(decimal.getcontext().rounding)  # => ROUND_HALF_EVEN
 
 ## Chainging the precision and the rounding
 decimal.getcontext().prec = 4
-decimal.getcontext().rounding = decimal.ROUND_HALF_DOWN
+
