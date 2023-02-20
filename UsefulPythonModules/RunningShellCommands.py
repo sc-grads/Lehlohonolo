@@ -5,7 +5,6 @@
 
 # Running system commands using os module
 import os
-
 # Running 'arp -a' command and getting the output
 output = os.popen('arp -a').read()
 print(output)  # => (192.168.0.1) at 90:5c:44:05:91:26 [ether] on wlo1
@@ -16,8 +15,6 @@ print(output)   # printing the output of ipconfig command
 
 # It's not recommended to execute commands using os.system()
 # os.system('whatever command')
-
-
 # Running system commands using subprocess module
 import subprocess
 

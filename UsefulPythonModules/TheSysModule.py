@@ -4,7 +4,6 @@
 
 # Importing the module
 import sys
-
 # Returns the version of the Python interpreter
 sys.version
 
