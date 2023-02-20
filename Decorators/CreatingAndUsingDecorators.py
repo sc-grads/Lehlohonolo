@@ -1,6 +1,5 @@
 user = {'username': 'js', 'level': 'admin'}
 
-
 def user_has_permission(func):
     if user['level'] == 'admin':
         return func

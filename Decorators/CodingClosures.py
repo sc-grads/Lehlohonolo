@@ -1,7 +1,6 @@
 #################################
 # Inner Functions and Closures
 #################################
-
 # A function defined inside another function is called  nested or inner function.
 # Inner functions can access variables of the enclosing scope and become closures.
 # defining an outer function
