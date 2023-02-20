@@ -1,7 +1,6 @@
 #################################
 # Data Serialization and Deserialization with Pickle
 #################################
-
 import pickle
 
 # Declaring a dictionary

@@ -35,8 +35,8 @@ with open('users.csv', 'w') as f:
         csv_data = (name, city, geo, company_name)
         writer.writerow(csv_data)
 
-### The resulting CSV File (users.csv):
-#Name,City,GPS,Company
+# The resulting CSV File (users.csv):
+# Name,City,GPS,Company
 # Leanne Graham,Gwenborough,"(-37.3159,81.1496)",Romaguera-Crona
 # Ervin Howell,Wisokyburgh,"(-43.9509,-34.4618)",Deckow-Crist
 # Clementine Bauch,McKenziehaven,"(-68.6102,-47.0653)",Romaguera-Jacobson

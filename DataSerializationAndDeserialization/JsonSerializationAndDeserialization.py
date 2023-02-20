@@ -1,7 +1,6 @@
 #################################
 # Data Serialization and Deserialization with JSON
 #################################
-
 import json
 
 # Declaring a dictionary
