@@ -16,7 +16,6 @@ def serialize(obj, file, type):
     else:
         print('Invalid serialization. Use pickle or json!')
 
-
 # Deserializing from from to Python Object
 def deserialize(file, type):
     if type == 'pickle':
