@@ -1,8 +1,5 @@
 ##############################
-# The OS module
-##############################
 
-# Importing the module
 import os
 
 # IMPORTANT!
