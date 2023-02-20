@@ -6,7 +6,6 @@ print(dir(math))
 print(math.sqrt(100))
 
 
-
 print(math.pi)
 import MyPythonModule
 
