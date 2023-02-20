@@ -4,6 +4,7 @@
 
 # Importing the module
 import random
+
 # Returns a random float between 0 included and 1 excluded
 r = random.random()
 print(r)  # => 0.2486797443554869
