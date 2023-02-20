@@ -18,7 +18,6 @@ wb = openpyxl.load_workbook('store.xlsx')
 
 # Getting a sheet
 sheet = wb['Products']
-
 # Getting a cell by address. It will be modified
 my_cell = sheet['B4']
 
