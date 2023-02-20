@@ -46,7 +46,6 @@ print(sheet['B5'].data_type)
 print(sheet['A5'].encoding)
 
 print(sheet['D4'].parent)
-
 ## Printing all cell methods
 print(dir(b2_cell))
 

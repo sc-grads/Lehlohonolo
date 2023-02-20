@@ -2,11 +2,9 @@
 # Working with Excel Files in Python
 # The OpenPyXL Module
 # Using Excel Formulas
-#################################
-
+###############################
 # Importing the module
 import openpyxl
-
 # Loading an excel file. store.xlsx is in the same directory with the python script
 wb = openpyxl.load_workbook('store.xlsx')
 

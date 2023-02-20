@@ -18,7 +18,6 @@ sheet['A1'] = 'Year'
 sheet['B1'] = 'Sales'
 
 sales = {2017: 700000, 2018: 800000, 2019: 900000}  # dictionary
-
 # Iterating over the dictionary and appending to the sheet
 for k, v in sales.items():
     sheet.append((k, v))
