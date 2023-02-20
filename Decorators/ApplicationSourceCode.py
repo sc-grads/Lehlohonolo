@@ -22,7 +22,6 @@ def sum_of_powers(n, p):
     nums = [x ** p for x in range(1, n)]
     return sum(nums)
 
-
 s = sum_of_powers(1000000, 2)
 print(s)
 

@@ -28,7 +28,6 @@ def remove_file(f):
     else:
         print('Argument is not file!')
 
-
 try:
     remove_file('a.txt')
 except PermissionError as e:

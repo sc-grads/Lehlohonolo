@@ -24,7 +24,6 @@ def just_a_func(x):
     print(f'I\'m just a function. x = {x}')
     return x * x
 
-
 result = just_a_func(100)
 print(f'Returned value result: {result}')
 
