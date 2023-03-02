@@ -7,7 +7,6 @@ SELECT TOP (1000) [BusinessEntityID]
   FROM [AdventureWorks2016].[HumanResources].[EmployeePayHistory]
 
   -------------------------------
-
   select max(rate) from [AdventureWorks2016].[HumanResources].[EmployeePayHistory]
 
  --------------------------------

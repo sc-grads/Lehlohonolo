@@ -7,7 +7,6 @@ ORDER BY Person.Person.FirstName DESC
 
 
 ------------------------
-
 /****** Script for SelectTopNRows command from SSMS  ******/
 SELECT TOP (1000) [Title]
       ,[FirstName]

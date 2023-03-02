@@ -5,10 +5,7 @@ SELECT * FROM  Person.Address
 go;
 
 GO
-
-
 -----------------------
-
 exec [dbo].[SelectAllPersonAddress]
 
 -------------------------------------------------

@@ -11,7 +11,6 @@ INSERT INTO [dbo].[PersonalInfo]
            '01-01-2023'
            ,777)
 GO
-
 select * from [dbo].[PersonalInfo]
 
 

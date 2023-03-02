@@ -46,7 +46,6 @@ commit
 delete from salesstaff where staffid in (select [BusinessEntityID] from [Sales].[vSalesPerson] where SalesLastYear = 0)
 
 -------------------------------------
-
 delete salesstaff 
 from  [Sales].[vSalesPerson] sp
 inner join salesstaff ss

@@ -45,7 +45,6 @@ join [dbo].[Sales] s
 on e.EmpID = s.[EmpID]
 order by e.EmpID
 -----------------------------------------------
-
 SELECT count(s.SalesNumber),e.EmpID,e.EmpName FROM [dbo].[Employee] e
 join [dbo].[Sales] s 
 on e.EmpID = s.[EmpID]

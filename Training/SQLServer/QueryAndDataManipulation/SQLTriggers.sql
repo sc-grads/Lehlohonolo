@@ -11,7 +11,6 @@ CREATE TABLE [dbo].[EmployeeTriggerHistory](
 ) ON [PRIMARY]
 
 GO
-
 select * from [dbo].[EmployeeTriggerHistory]
 -----------------------------------------------
 
