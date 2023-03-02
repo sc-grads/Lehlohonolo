@@ -39,7 +39,6 @@ SELECT * FROM [dbo].[Employee] e
 join [dbo].[Sales] s 
 on e.EmpID = s.[EmpID]
 --------------------------------------------------
-
 SELECT e.EmpID,e.EmpName,s.SalesNumber,s.ItemSold FROM [dbo].[Employee] e
 join [dbo].[Sales] s 
 on e.EmpID = s.[EmpID]

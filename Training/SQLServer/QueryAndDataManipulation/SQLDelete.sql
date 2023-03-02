@@ -42,9 +42,7 @@ delete from salesstaff where countryregion =  'united states'
 commit
 
 ------------------------
-
 delete from salesstaff where staffid in (select [BusinessEntityID] from [Sales].[vSalesPerson] where SalesLastYear = 0)
-
 -------------------------------------
 delete salesstaff 
 from  [Sales].[vSalesPerson] sp

@@ -4,8 +4,6 @@ FROM            Person.Person INNER JOIN
                          Person.PhoneNumberType ON Person.PersonPhone.PhoneNumberTypeID = Person.PhoneNumberType.PhoneNumberTypeID
 WHERE        (Person.Person.Title = N'Mr.')
 ORDER BY Person.Person.FirstName DESC
-
-
 ------------------------
 /****** Script for SelectTopNRows command from SSMS  ******/
 SELECT TOP (1000) [Title]

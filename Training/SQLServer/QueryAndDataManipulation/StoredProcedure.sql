@@ -9,9 +9,7 @@ GO
 exec [dbo].[SelectAllPersonAddress]
 
 -------------------------------------------------
-
 drop procedure [dbo].[SelectAllPersonAddressWithParams]
-
 ----------------
 CREATE PROCEDURE [dbo].[SelectAllPersonAddressWithParams] (@City NVARCHAR(30))
 AS
