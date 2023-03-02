@@ -9,7 +9,7 @@ INSERT INTO [dbo].[PersonalInfo]
            ('Lehlohonolo',
            'Tladi',
            '01-01-2023'
-           ,999)
+           ,88)
 GO
 select * from [dbo].[PersonalInfo]
 

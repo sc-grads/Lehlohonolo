@@ -3,13 +3,11 @@ SELECT TOP (1000) [EmpName]
       ,[EmpTitle]
       ,[EmpID]
   FROM [AdventureWorks2016].[dbo].[Employee]
-
 -----------------------------------------------------
 CREATE TABLE [dbo].[EmployeeTriggerHistory](
 	[ID] [int] NULL,
 	[Statement] [nchar](10) NULL
 ) ON [PRIMARY]
-
 GO
 select * from [dbo].[EmployeeTriggerHistory]
 -----------------------------------------------

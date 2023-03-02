@@ -16,11 +16,8 @@ insert into salesstaff
 select [BusinessEntityID],[FirstName],[LastName],[CountryRegionName] from [Sales].[vSalesPerson]
 
 -------------------------------------
-
 delete salesstaff
-
 ----------------------
-
 
 delete from salesstaff
 
@@ -33,14 +30,11 @@ begin tran
 delete from salesstaff where countryregion =  'united states'
 
 rollback tran
-
 ------------------------------
-
 begin tran
 delete from salesstaff where countryregion =  'united states'
 
 commit
-
 ------------------------
 delete from salesstaff where staffid in (select [BusinessEntityID] from [Sales].[vSalesPerson] where SalesLastYear = 0)
 -------------------------------------

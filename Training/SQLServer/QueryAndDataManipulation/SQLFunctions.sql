@@ -13,9 +13,7 @@ SELECT TOP (1000) [BusinessEntityID]
   select count(rate) from [AdventureWorks2016].[HumanResources].[EmployeePayHistory]
  ---------------------------------------
   select count(rate) from [AdventureWorks2016].[HumanResources].[EmployeePayHistory]
-
   ------------------------------
-
   print upper('hehetgtAA')
 
   -------

@@ -7,7 +7,6 @@ go;
 GO
 -----------------------
 exec [dbo].[SelectAllPersonAddress]
-
 -------------------------------------------------
 drop procedure [dbo].[SelectAllPersonAddressWithParams]
 ----------------
