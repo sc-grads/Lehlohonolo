@@ -66,9 +66,7 @@ SELECT * FROM  Person.Address where City = @city;
 END
 GO
 
-
 ----------------------
-
 CREATE PROCEDURE [dbo].[SelectAllPersonAddressWithParamswithEncryption] (@City NVARCHAR(30) = 'New York',@stateProvinceid int)
 AS
 
