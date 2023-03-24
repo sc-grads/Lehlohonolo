@@ -1,0 +1,372 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="3/22/2023 3:27:02 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="DESKTOP-36TGA5A"
+  DTS:CreatorName="DESKTOP-36TGA5A\Lehlohonolo Tladi"
+  DTS:DTSID="{1BDB528D-6E12-4661-9B97-0F9DD2628E66}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="16.0.5035.3"
+  DTS:LocaleID="7177"
+  DTS:ObjectName="Package1"
+  DTS:PackageType="5"
+  DTS:VersionBuild="1"
+  DTS:VersionGUID="{8B6E79C0-B659-4F13-8AC7-369E92858927}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Sequence Container"
+      DTS:CreationName="STOCK:SEQUENCE"
+      DTS:Description="Sequence Container"
+      DTS:DTSID="{D59E8DD4-136F-451A-A9F7-1AE59A67C39A}"
+      DTS:ExecutableType="STOCK:SEQUENCE"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Sequence Container">
+      <DTS:Variables />
+      <DTS:Executables>
+        <DTS:Executable
+          DTS:refId="Package\Sequence Container\Data Mining Query Task"
+          DTS:CreationName="Microsoft.DMQueryTask"
+          DTS:Description="Data Mining Query Task"
+          DTS:DTSID="{310B5AF1-E615-47E4-96C2-A2EE65E63A7C}"
+          DTS:ExecutableType="Microsoft.DMQueryTask"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="Data Mining Query Task"
+          DTS:ThreadHint="2">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <DMQuertTaskData
+              InputConnection=""
+              OutputConnection=""
+              ModelStructureName=""
+              ModelName=""
+              OverwriteOutputTable="False"
+              OutputTableName="">
+              <QueryString
+                Sensitive="1"
+                Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAxdtEZ94Ij0ajaVw6VTDN6AAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB2fb8O25C6QFMUZaPCCP1X+zY97pRhdEI8s2RyqJ654wAAAAAOgAAAAAIAACAAAADvJ9zyVwcbtgsKvZwvx+Np109zCynfHNHYQg0tzf7nOBAAAADCQXoCBBNKwEOZj6JAl28rQAAAAHxb80UlQRgnc31JvYhBDsIzWVYuic/osVu/QgurmUrKYf3QuiAfba+0m8BuJ/UyoaPfKlFEwVACmq7lBDwYhwE</QueryString>
+              <QueryBuilderQueryString
+                Sensitive="1"
+                Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAxdtEZ94Ij0ajaVw6VTDN6AAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAA2gLirpVqOeazciYBLyWwfQDxwOZaUOZThEJku6huzSAAAAAAOgAAAAAIAACAAAAC1uWqC8435+cTPTLaAUghliU9tfhLorqUyNW5lSnCVWhAAAACUqmJMATyn7o3d2OWQzq5nQAAAABViyk+S37EsCUgSBT+1rqH1jyFZI95d+2PqLBWLEsloj9rorLDPp878M96KEV1rSykUPhO6Kyi2UjloR4JdtWY</QueryBuilderQueryString>
+              <QueryBuilderSpecification
+                Sensitive="1"
+                Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAxdtEZ94Ij0ajaVw6VTDN6AAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAA0d2e5w5KNDoXd/t+jb02Bjp5+nhVM+cZOGAHaIn1WdgAAAAAOgAAAAAIAACAAAACWCzCMn+0+xGD2vj1AFAx4BOuXDe4Pkrsc69sggEhUQBAAAADBIRekNDMbjQPE2jCmFN/8QAAAAO3jOPIV3HDXqrzUUe9Jia9kPREtotBoEfr3mtxTtJfjnVHF04L8FgT37ROOxFnThxZdCwmbf9+yX4g/4Sep0zU</QueryBuilderSpecification>
+            </DMQuertTaskData>
+          </DTS:ObjectData>
+        </DTS:Executable>
+        <DTS:Executable
+          DTS:refId="Package\Sequence Container\Data Mining Query Task 1"
+          DTS:CreationName="Microsoft.DMQueryTask"
+          DTS:Description="Data Mining Query Task"
+          DTS:DTSID="{1B53E940-FED0-4A29-8A21-3CD5DF716BD7}"
+          DTS:ExecutableType="Microsoft.DMQueryTask"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="Data Mining Query Task 1"
+          DTS:ThreadHint="2">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <DMQuertTaskData
+              InputConnection=""
+              OutputConnection=""
+              ModelStructureName=""
+              ModelName=""
+              OverwriteOutputTable="False"
+              OutputTableName="">
+              <QueryString
+                Sensitive="1"
+                Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAxdtEZ94Ij0ajaVw6VTDN6AAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABe9ajKFklelbrVoDBDR+yEkfc7kwyyGJJPrkGUXDBoFwAAAAAOgAAAAAIAACAAAADvvBNy2OAFhfj25sLE4C3zK9Xzxx+EUYcqaYJhIyN2rhAAAAARwDUtmMupnSrRgN8ajIgIQAAAAMFJhuI4Rh7uEwUgI1Y6N79wIqXdPUKu2zE6ZGsMtNYshQpx8R8dPQhql1YTGHUHfoxEiR6hBRn1JUD1IFNWo6s</QueryString>
+              <QueryBuilderQueryString
+                Sensitive="1"
+                Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAxdtEZ94Ij0ajaVw6VTDN6AAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACsgc2CiPWvhTG+0M1wzqzpJNXhmMSxceIdO8HDHxjNJQAAAAAOgAAAAAIAACAAAAAa8Q7BTQ9rPKA7xTmUeOMktk/4dDtfnEjLkodSgepFfhAAAAAy/dY1HnelDDbTUQedqJeNQAAAAEg2D4MHP/DI2Ft2rcamUV9N8/8IBQ10O9LZw8rs1QWXPdTkFZsvwAPwzDvM1H7xCRHjYimHNoEWXURbwEig4vk</QueryBuilderQueryString>
+              <QueryBuilderSpecification
+                Sensitive="1"
+                Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAxdtEZ94Ij0ajaVw6VTDN6AAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB/sOcfSov1SVp76qQ3hNhdyCYKcUFfsKEX21Cy0lH/kwAAAAAOgAAAAAIAACAAAABsJafIeLc6HihdZm8FfN1UgNwez4x+xqThhVhKG2gX5RAAAADakSDVFbycg7rit97KK59SQAAAAEkyAW3NiznvvO65kaqQhX9m6SItebdh2t/qEfTQmxdki2EC4nkf9CSVmPsUFtbOug3QwYemGuQU9hwx9Kty/BA</QueryBuilderSpecification>
+            </DMQuertTaskData>
+          </DTS:ObjectData>
+        </DTS:Executable>
+      </DTS:Executables>
+      <DTS:PrecedenceConstraints>
+        <DTS:PrecedenceConstraint
+          DTS:refId="Package\Sequence Container.PrecedenceConstraints[Constraint]"
+          DTS:CreationName=""
+          DTS:DTSID="{F661732B-ED20-4E22-8F46-54B3033B9147}"
+          DTS:From="Package\Sequence Container\Data Mining Query Task"
+          DTS:LogicalAnd="True"
+          DTS:ObjectName="Constraint"
+          DTS:To="Package\Sequence Container\Data Mining Query Task 1" />
+      </DTS:PrecedenceConstraints>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Sequence Container 1"
+      DTS:CreationName="STOCK:SEQUENCE"
+      DTS:Description="Sequence Container"
+      DTS:DTSID="{FC3A6B0F-716A-48CE-ABFC-C6FB63C1304F}"
+      DTS:ExecutableType="STOCK:SEQUENCE"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Sequence Container 1">
+      <DTS:Variables />
+      <DTS:Executables>
+        <DTS:Executable
+          DTS:refId="Package\Sequence Container 1\Reorganize Index Task"
+          DTS:CreationName="Microsoft.DbMaintenanceDefragmentIndexTask"
+          DTS:Description="Reorganize Index Task"
+          DTS:DTSID="{99DADCE9-AFCF-4180-8473-B7880824ADB0}"
+          DTS:ExecutableType="Microsoft.DbMaintenanceDefragmentIndexTask"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="Reorganize Index Task"
+          DTS:TaskContact="Reorganize Index Task; Microsoft Corporation; Microsoft SQL Server v9; © 2004 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+          DTS:ThreadHint="0">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <SQLTask:SqlTaskData
+              SQLTask:ServerVersion="9"
+              SQLTask:ExtendedLogging="True"
+              SQLTask:LocalConnectionForLogging=""
+              SQLTask:TaskName=""
+              SQLTask:IgnoreDatabasesInNotOnlineState="False"
+              SQLTask:CompactLargeObjects="True"
+              SQLTask:CheckFragmentationPercentUsed="True"
+              SQLTask:CheckPageCountUsed="True"
+              SQLTask:FragmentationOp="Fast"
+              SQLTask:FragmentationPercent="15"
+              SQLTask:PageCount="1000"
+              SQLTask:CheckLastUsageInDaysUsed="False" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          </DTS:ObjectData>
+        </DTS:Executable>
+        <DTS:Executable
+          DTS:refId="Package\Sequence Container 1\Reorganize Index Task 1"
+          DTS:CreationName="Microsoft.DbMaintenanceDefragmentIndexTask"
+          DTS:Description="Reorganize Index Task"
+          DTS:DTSID="{9A00AD91-7F2F-4AF4-82C1-74E939165773}"
+          DTS:ExecutableType="Microsoft.DbMaintenanceDefragmentIndexTask"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="Reorganize Index Task 1"
+          DTS:TaskContact="Reorganize Index Task; Microsoft Corporation; Microsoft SQL Server v9; © 2004 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+          DTS:ThreadHint="0">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <SQLTask:SqlTaskData
+              SQLTask:ServerVersion="9"
+              SQLTask:ExtendedLogging="True"
+              SQLTask:LocalConnectionForLogging=""
+              SQLTask:TaskName=""
+              SQLTask:IgnoreDatabasesInNotOnlineState="False"
+              SQLTask:CompactLargeObjects="True"
+              SQLTask:CheckFragmentationPercentUsed="True"
+              SQLTask:CheckPageCountUsed="True"
+              SQLTask:FragmentationOp="Fast"
+              SQLTask:FragmentationPercent="15"
+              SQLTask:PageCount="1000"
+              SQLTask:CheckLastUsageInDaysUsed="False" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          </DTS:ObjectData>
+        </DTS:Executable>
+      </DTS:Executables>
+      <DTS:PrecedenceConstraints>
+        <DTS:PrecedenceConstraint
+          DTS:refId="Package\Sequence Container 1.PrecedenceConstraints[Constraint]"
+          DTS:CreationName=""
+          DTS:DTSID="{7EA77912-873B-4F6E-AFC4-891F042D36F0}"
+          DTS:From="Package\Sequence Container 1\Reorganize Index Task"
+          DTS:LogicalAnd="True"
+          DTS:ObjectName="Constraint"
+          DTS:To="Package\Sequence Container 1\Reorganize Index Task 1" />
+      </DTS:PrecedenceConstraints>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Sequence Container 2"
+      DTS:CreationName="STOCK:SEQUENCE"
+      DTS:Description="Sequence Container"
+      DTS:DTSID="{DDA7D484-690B-49B4-BAC5-153697632D0C}"
+      DTS:ExecutableType="STOCK:SEQUENCE"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Sequence Container 2">
+      <DTS:Variables />
+      <DTS:Executables>
+        <DTS:Executable
+          DTS:refId="Package\Sequence Container 2\Transfer Jobs Task"
+          DTS:CreationName="Microsoft.TransferJobsTask"
+          DTS:Description="Transfer Jobs Task"
+          DTS:DTSID="{D3003631-66F5-4406-A0FD-C652D3980998}"
+          DTS:ExecutableType="Microsoft.TransferJobsTask"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="Transfer Jobs Task"
+          DTS:TaskContact="Transfer Jobs Task; Microsoft Corporation; SQL Server 2022; (c) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+          DTS:ThreadHint="1">
+          <DTS:Variables />
+          <DTS:ObjectData />
+        </DTS:Executable>
+        <DTS:Executable
+          DTS:refId="Package\Sequence Container 2\Transfer Jobs Task 1"
+          DTS:CreationName="Microsoft.TransferJobsTask"
+          DTS:Description="Transfer Jobs Task"
+          DTS:DTSID="{6579D724-334C-4D2E-93E3-AF1C9FDAB558}"
+          DTS:ExecutableType="Microsoft.TransferJobsTask"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="Transfer Jobs Task 1"
+          DTS:TaskContact="Transfer Jobs Task; Microsoft Corporation; SQL Server 2022; (c) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+          DTS:ThreadHint="1">
+          <DTS:Variables />
+          <DTS:ObjectData />
+        </DTS:Executable>
+      </DTS:Executables>
+      <DTS:PrecedenceConstraints>
+        <DTS:PrecedenceConstraint
+          DTS:refId="Package\Sequence Container 2.PrecedenceConstraints[Constraint]"
+          DTS:CreationName=""
+          DTS:DTSID="{92E152B1-2320-4E22-8B76-B6DE3455D5A6}"
+          DTS:From="Package\Sequence Container 2\Transfer Jobs Task"
+          DTS:LogicalAnd="True"
+          DTS:ObjectName="Constraint"
+          DTS:To="Package\Sequence Container 2\Transfer Jobs Task 1" />
+      </DTS:PrecedenceConstraints>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="194.666666666667,42.6666666666667"
+          Id="Package\Sequence Container\Data Mining Query Task"
+          TopLeft="32.7916658005367,36.9298276908951" />
+        <NodeLayout
+          Size="202.666666666667,42.6666666666667"
+          Id="Package\Sequence Container\Data Mining Query Task 1"
+          TopLeft="56.5416654466341,115.28070612022" />
+        <EdgeLayout
+          Id="Package\Sequence Container.PrecedenceConstraints[Constraint]"
+          TopLeft="130.12499913387,79.5964943575617">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="27.7499996460974,35.6842117626582"
+              Start="0,0"
+              End="27.7499996460974,28.1842117626582">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,13.8421058813291" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,13.8421058813291"
+                    Point2="0,17.8421058813291"
+                    Point3="4,17.8421058813291" />
+                  <mssgle:LineSegment
+                    End="23.7499996460974,17.8421058813291" />
+                  <mssgle:CubicBezierSegment
+                    Point1="23.7499996460974,17.8421058813291"
+                    Point2="27.7499996460974,17.8421058813291"
+                    Point3="27.7499996460974,21.8421058813291" />
+                  <mssgle:LineSegment
+                    End="27.7499996460974,28.1842117626582" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <ContainerLayout
+          HeaderHeight="43"
+          IsExpanded="True"
+          PanelSize="288.666666666667,163.333333333334"
+          Size="288.666666666667,206.666666666667"
+          Id="Package\Sequence Container"
+          TopLeft="98.7499985285104,151.850874758933" />
+        <NodeLayout
+          Size="189.333333333334,42.6666666666667"
+          Id="Package\Sequence Container 1\Reorganize Index Task"
+          TopLeft="49.499995417893,20.9473710740372" />
+        <NodeLayout
+          Size="197.333333333334,42.6666666666667"
+          Id="Package\Sequence Container 1\Reorganize Index Task 1"
+          TopLeft="96.3749947194011,81.8421090623349" />
+        <EdgeLayout
+          Id="Package\Sequence Container 1.PrecedenceConstraints[Constraint]"
+          TopLeft="238.833328751226,42.2807044073706">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-43.7916673651586,39.5614046549644"
+              Start="0,0"
+              End="-43.7916673651586,32.0614046549644">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-39.7916673651586,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-39.7916673651586,0"
+                    Point2="-43.7916673651586,0"
+                    Point3="-43.7916673651586,4" />
+                  <mssgle:LineSegment
+                    End="-43.7916673651586,32.0614046549644" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <ContainerLayout
+          HeaderHeight="43"
+          IsExpanded="True"
+          PanelSize="298.666666666667,179.333333333334"
+          Size="298.666666666667,222.666666666667"
+          Id="Package\Sequence Container 1"
+          TopLeft="356.874994682148,174.368424259394" />
+        <NodeLayout
+          Size="170.666666666667,42.6666666666667"
+          Id="Package\Sequence Container 2\Transfer Jobs Task"
+          TopLeft="34.8749931920321,17.29824754582" />
+        <NodeLayout
+          Size="180,42.6666666666667"
+          Id="Package\Sequence Container 2\Transfer Jobs Task 1"
+          TopLeft="27.5833266836901,107.614038719475" />
+        <EdgeLayout
+          Id="Package\Sequence Container 2.PrecedenceConstraints[Constraint]"
+          TopLeft="118.895826604528,59.9649142124867">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,47.6491245069882"
+              Start="0,0"
+              End="0,40.1491245069882">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,40.1491245069882" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <ContainerLayout
+          HeaderHeight="43"
+          IsExpanded="True"
+          PanelSize="272,205.333333333334"
+          Size="272,248"
+          Id="Package\Sequence Container 2"
+          TopLeft="543.499991990626,109.894738722376" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>
