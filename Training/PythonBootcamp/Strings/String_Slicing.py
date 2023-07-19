@@ -1,1 +1,0 @@
-my_interface = my_str[0:4]

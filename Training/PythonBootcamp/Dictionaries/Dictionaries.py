@@ -1,1 +1,0 @@
-user = {'name': 'Andrei', 'age': 40, 'location': 'Bucharest', 'email': 'just_an_email@domain.com'}
